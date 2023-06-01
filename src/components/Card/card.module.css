@@ -28,6 +28,7 @@
 
 .backgroundImg {
   position: absolute;
+  pointer-events: none;
   top: 28px;
   left: 36px;
   width: 308px;
