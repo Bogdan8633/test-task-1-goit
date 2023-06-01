@@ -1,16 +1,14 @@
-export const App = () => {
+import MainMenu from './MainMenu/MainManu';
+
+import menuItems from './MainMenu/menuItems.json';
+
+const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      React homework template for test-task-1-goit
-    </div>
+    <>
+      <MainMenu items={menuItems} />
+      <div>Початок проекту тестового завдання</div>
+    </>
   );
 };
+
+export default App;
