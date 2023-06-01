@@ -3,7 +3,7 @@ import { useState } from 'react';
 import styles from './card.module.css';
 
 const Card = () => {
-  const [activeBtn, setActiveBtn] = useState(true);
+  const [activeBtn, setActiveBtn] = useState(false);
 
   return (
     <div className={styles.card}>
