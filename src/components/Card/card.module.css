@@ -1,0 +1,36 @@
+.card {
+  position: relative;
+  display: flex;
+  margin: 20px auto;
+  /* background-color: #471ca9; */
+  background: linear-gradient(
+    114.99deg,
+    #471ca9 -0.99%,
+    #5736a3 54.28%,
+    #4b2a99 78.99%
+  );
+  width: 380px;
+  height: 460px;
+  border-radius: 20px;
+}
+
+.logoLink {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.logoImg {
+  width: 76px;
+  height: 22px;
+}
+
+.backgroundImg {
+  position: absolute;
+  top: 28px;
+  left: 36px;
+  width: 308px;
+  height: 168px;
+  background-image: url(../../images/messagesPicture.png);
+  background-repeat: no-repeat;
+}

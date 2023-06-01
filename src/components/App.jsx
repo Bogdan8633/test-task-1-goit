@@ -1,4 +1,5 @@
 import MainMenu from './MainMenu/MainManu';
+import Card from './Card/Card';
 
 import menuItems from './MainMenu/menuItems.json';
 
@@ -7,6 +8,7 @@ const App = () => {
     <>
       <MainMenu items={menuItems} />
       <div>Початок проекту тестового завдання</div>
+      <Card />
     </>
   );
 };
