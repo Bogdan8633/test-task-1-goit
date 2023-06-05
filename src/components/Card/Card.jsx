@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import styles from './card.module.css';
 
-const Card = () => {
+const Card = ({ user, tweets, followers, avatar }) => {
   const [activeBtn, setActiveBtn] = useState(false);
 
   return (
@@ -20,16 +20,20 @@ const Card = () => {
         <img src={require('images/group1.png')} alt="line" />
         <img
           className={styles.avatar}
-          src={require('images/avatar.png')}
+          // src={require('images/avatar.png')}
+          src={avatar}
           alt="avatar"
         />
       </div>
       <ul className={styles.infoList}>
         <li>
-          <h2 className={styles.title}> 777 tweets</h2>
+          <h2 className={styles.title}>{user}</h2>
         </li>
         <li>
-          <h2 className={styles.title}> 100,500 Followers</h2>
+          <h2 className={styles.title}>{tweets} TWEETS</h2>
+        </li>
+        <li>
+          <h2 className={styles.title}>{followers} FOLLOWERS</h2>
         </li>
       </ul>
       <button

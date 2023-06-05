@@ -45,12 +45,15 @@
 
 .avatar {
   position: absolute;
-  top: 9px;
-  left: 160px;
+  top: 5px;
+  left: 155px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
 }
 
 .infoList {
-  height: 70px;
+  height: 85px;
   margin-top: 284px;
   margin-bottom: 26px;
   margin-left: auto;
